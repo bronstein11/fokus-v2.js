@@ -1,74 +1,183 @@
-![](thumbnail.png)
+# 🎯 Fokus V2 - Aplicativo de Produtividade
 
-# Fokus
+Um aplicativo web de produtividade baseado na técnica Pomodoro, desenvolvido para otimizar o foco e gerenciamento de tarefas com uma interface moderna e intuitiva. Esta é a **versão 2** do Fokus, que expande significativamente as funcionalidades da versão original.
 
-Olá, aventureiro(a) digital! Você acabou de embarcar na jornada de descoberta do nosso projeto incrível desenvolvido ao longo do curso "JavaScript: explorando a manipulação de elementos e da localStorage". Agarre-se à sua cadeira, pois vamos desbravar os mares do código!
+## 🔗 Demo
+- **Fokus V2** (com gerenciamento de tarefas): [https://fokus-v2-js-uuli.vercel.app/](https://fokus-v2-js-uuli.vercel.app/)
+- **Fokus V1** (apenas timer): [https://fokus-js-phi.vercel.app/](https://fokus-js-phi.vercel.app/)
 
-## Uma pitada sobre o Projeto
+## 📋 Sobre o Projeto
 
-![](print.png)
+O **Fokus V2** é uma evolução significativa da versão original, combinando timer personalizado com um sistema completo de gerenciamento de tarefas. Enquanto a V1 focava apenas no timer Pomodoro, esta versão adiciona funcionalidades avançadas de produtividade.
 
+## 🆕 Novidades da V2
 
-O nosso querido projeto é uma aplicação web simples e interativa que permite aos usuários adicionar, editar, visualizar e remover tarefas, tudo em um ambiente visual agradável e amigável. Mas não se engane, apesar de sua simplicidade, ele é o campo de batalha onde você vai treinar e aprimorar suas habilidades em JavaScript e manipulação da DOM.
+### 📝 **Sistema Completo de Tarefas** (Novo!)
+- ✅ Adicionar, editar e remover tarefas
+- ✅ Seleção de tarefa ativa durante sessões de foco
+- ✅ Conclusão automática de tarefas após sessão de foco
+- ✅ Persistência de dados no localStorage
+- ✅ Limpeza de tarefas concluídas ou todas as tarefas
+- ✅ Interface intuitiva com dropdown de ações
 
-## As Magias que o Projeto Realiza
+### 🔄 **Integração Timer + Tarefas** (Novo!)
+- ✅ Sincronização entre timer e tarefa selecionada
+- ✅ Eventos customizados para comunicação entre módulos
+- ✅ Atualização automática do status das tarefas
 
-1. Adicionar Tarefas: Um botão mágico revela um formulário onde você pode escrever e adicionar novas tarefas.
-2. Editar Tarefas: Clique em um botão editar e voilà, você pode alterar a descrição da tarefa.
-3. Visualizar Tarefas: As tarefas adicionadas estão todas lá, bonitas e organizadas, esperando por sua atenção.
-4. Marcar Tarefas como Completas: Quando uma tarefa é finalizada, ela muda de aparência. É a magia do CSS e JavaScript acontecendo!
-5. Remover Tarefas: Seja seletivo e remova apenas as tarefas completas ou jogue tudo para o alto e comece de novo com uma lista de tarefas limpa.
+### 🎨 **Interface Aprimorada** (Novo!)
+- ✅ Seção dedicada para gerenciamento de tarefas
+- ✅ Indicadores visuais de tarefa ativa e concluída
+- ✅ Sistema de cores diferenciado para status das tarefas
 
-## O Caldeirão de Técnicas e Tecnologias
+## ✨ Funcionalidades Completas
 
-Aqui é onde a mágica acontece! Mergulhamos profundamente nas águas de:
+### ⏱️ Timer Pomodoro (V1 + Melhorias)
+- **Foco**: 25 minutos de concentração
+- **Descanso Curto**: 5 minutos de pausa  
+- **Descanso Longo**: 15 minutos de relaxamento
+- Interface visual que muda de acordo com o contexto selecionado
+- Sons de feedback para play, pause e conclusão
+- Música de fundo opcional durante as sessões
 
-- Manipulação da DOM: Aprendemos a manipular a estrutura de nossa página com JavaScript, criando, removendo e alterando elementos HTML.
-- Eventos JavaScript: Exploramos o poder dos eventos JavaScript para criar uma interface interativa e responsiva.
-- LocalStorage: Ensaiamos a dança de armazenar e recuperar dados usando a LocalStorage, mantendo nossas tarefas seguras e acessíveis mesmo após o navegador ser fechado.
+### 📝 Gerenciamento de Tarefas (NOVO na V2!)
+- **Adicionar tarefas**: Interface intuitiva com textarea
+- **Editar tarefas**: Edição rápida via prompt
+- **Selecionar tarefa ativa**: Vincular tarefa ao período de foco
+- **Conclusão automática**: Tarefas são marcadas como concluídas após sessão de foco
+- **Remover tarefas**: Opções para limpar tarefas concluídas ou todas
+- **Persistência**: Dados salvos automaticamente no navegador
+- **Estados visuais**: Diferentes cores para tarefas ativas, concluídas e pendentes
 
-## Como Abrir e Rodar o Projeto: Um Mapa do Tesouro para Navegar no Código
+### 🔄 Integração Timer + Tarefas (NOVO na V2!)
+- **Sincronização**: Tarefa selecionada é exibida durante o timer
+- **Eventos customizados**: Comunicação inteligente entre módulos
+- **Workflow otimizado**: Fluxo de trabalho integrado e eficiente
 
-Ahoy, marujo(a) do código! Está pronto(a) para içar as velas e navegar pelas águas do nosso projeto? Segure firme o leme, pois vamos guiar você através dos passos para configurar e executar o projeto em seu ambiente local. Não se preocupe, não há monstros marinhos à vista, apenas um oceano de aprendizado esperando por você!
+### 🎵 Recursos Adicionais (Mantidos da V1)
+- Música de fundo opcional durante as sessões
+- Design responsivo para diferentes dispositivos  
+- Tema visual dinâmico baseado no modo selecionado
 
-### Abastecendo o Navio
+## 🛠️ Tecnologias Utilizadas
 
-Certifique-se de que você tem um navegador web moderno instalado. Recomendamos o uso do Google Chrome ou Mozilla Firefox.
+- **HTML5**: Estrutura semântica da aplicação
+- **CSS3**: Estilização avançada com:
+  - Variáveis CSS personalizadas
+  - Gradientes e efeitos visuais
+  - Design responsivo
+  - Animações e transições
+- **JavaScript (ES6+)**: 
+  - Manipulação do DOM
+  - API de armazenamento local
+  - Custom Events
+  - Audio API para efeitos sonoros
 
-#### Navegando até o Projeto
+## 🎨 Design e UX
 
-Abra a pasta onde o projeto foi baixado ou extraído.
-Você encontrará um arquivo chamado index.html. Este é o nosso mapa do tesouro!
+- **Paleta de Cores**: Sistema de cores dinâmico baseado no contexto
+- **Tipografia**: Combinação das fontes Montserrat e Unbounded
+- **Layout**: Interface centrada e responsiva
+- **Interatividade**: Feedback visual e sonoro para todas as ações
 
+## 📱 Responsividade
 
-#### Içando as Velas
+O aplicativo é totalmente responsivo, adaptando-se a:
+- 🖥️ **Desktop**: Layout completo com todos os recursos
+- 📱 **Tablets**: (768px - 1024px) Interface otimizada
+- 📱 **Mobile**: (até 767px) Layout compacto e touch-friendly
 
-Dê um duplo clique no arquivo index.html. Voilà! O projeto será aberto em seu navegador padrão, e você será transportado(a) para as terras encantadas da nossa aplicação de gerenciamento de tarefas.
+## 🚀 Como Usar
 
-#### Explorando as Ilhas do Código
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/fokus-app.git
+   ```
 
-Abra a pasta do projeto em seu editor de código favorito. Recomendamos o uso do Visual Studio Code ou Sublime Text.
+2. **Abra o projeto**:
+   - Navegue até a pasta do projeto
+   - Abra o arquivo `index.html` no seu navegador
+   - Ou acesse a demo online: [https://fokus-v2-js-uuli.vercel.app/](https://fokus-v2-js-uuli.vercel.app/)
 
-Você encontrará três arquivos principais que contêm o código que faz a magia acontecer:
+3. **Funcionalidades principais**:
+   - **Timer**: Selecione o tipo de sessão (Foco, Descanso Curto ou Longo)
+   - **Tarefas**: Adicione suas tarefas e selecione uma para focar
+   - **Música**: Use o toggle de música conforme preferir
+   - **Workflow**: Inicie o timer e concentre-se na tarefa selecionada
+   - **Conclusão**: Tarefas são automaticamente concluídas após sessão de foco
 
-- script-crud.js: Onde as funcionalidades de CRUD (Criar, Ler, Atualizar e Deletar) das tarefas são implementadas.
-- script.js: Um script adicional que pode conter outras funcionalidades JavaScript do projeto.
-- styles.css: Onde a beleza do projeto é criada, com todos os estilos CSS que fazem nossa aplicação brilhar.
+## 📂 Estrutura do Projeto
 
-#### Ajustando as Velas:
+```
+fokus-v2/
+│
+├── index.html              # Página principal
+├── styles.css              # Estilos da aplicação  
+├── script.js               # Lógica do timer e interface (V1 base)
+├── script-crud.js          # Gerenciamento de tarefas (NOVO na V2)
+├── imagens/                # Assets visuais
+│   ├── logo.png
+│   ├── foco.png
+│   ├── descanso-curto.png
+│   ├── descanso-longo.png
+│   ├── play_arrow.png
+│   ├── pause.png
+│   ├── add_circle.png      # Ícones para tarefas
+│   ├── edit.png
+│   ├── check.svg
+│   ├── trash.svg
+│   ├── delete.png
+│   ├── close.png
+│   ├── save.png
+│   ├── more.svg
+│   └── pattern.png
+└── sons/                   # Efeitos sonoros
+    ├── luna-rise-part-one.mp3
+    ├── play.wav
+    ├── pause.mp3
+    └── beep.mp3
+```
 
-Sinta-se livre para explorar, modificar e experimentar o código. O mar é vasto e cheio de descobertas!
+## 🎯 Técnica Pomodoro
 
-#### Mensagens na Garrafa:
+O aplicativo segue os princípios da técnica Pomodoro:
+1. Trabalhe com foco por 25 minutos
+2. Faça uma pausa curta de 5 minutos
+3. Após 4 sessões, faça uma pausa longa de 15 minutos
+4. Repita o ciclo
 
-Se você encontrar algum bug ou tiver sugestões de melhorias, não hesite em compartilhar seus feedbacks.
+## 💾 Persistência de Dados
 
-Agora com o mapa em mãos e as instruções seguras, você está pronto(a) para desbravar as águas do nosso projeto! 
+As tarefas são automaticamente salvas no `localStorage` do navegador, garantindo que suas informações não sejam perdidas entre sessões.
 
-Que os ventos do aprendizado soprem sempre a seu favor, e que você encontre tesouros de conhecimento em cada linha de código. Boa viagem, e até a próxima aventura!
+## 📈 Evolução: V1 → V2
 
-![](https://media.tenor.com/cX92mi1p-NYAAAAd/coding-anime.gif)
+### Fokus V1 (Base)
+- ⏱️ Timer Pomodoro com 3 modos
+- 🎵 Controle de música de fundo  
+- 🎨 Interface responsiva com temas dinâmicos
+- 🔊 Efeitos sonoros de feedback
 
+### Fokus V2 (Atual) - Adições
+- ➕ **Sistema completo de gerenciamento de tarefas**
+- ➕ **Integração timer + tarefas com eventos customizados**
+- ➕ **Persistência de dados no localStorage**
+- ➕ **Interface expandida com seção dedicada para tarefas**
+- ➕ **Estados visuais diferenciados para tarefas**
+- ➕ **Conclusão automática após sessões de foco**
 
+## 🤝 Contribuições
 
+Contribuições são bem-vindas! Sinta-se à vontade para:
+- Reportar bugs
+- Sugerir novas funcionalidades
+- Enviar pull requests
+- Melhorar a documentação
 
+## 👨‍💻 Autor
+
+**Mauricio Grass de Bronstein**
+
+---
+
+⭐ Se este projeto foi útil para você, considere dar uma estrela no repositório!
